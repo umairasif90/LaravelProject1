@@ -1,0 +1,185 @@
+.top-head{
+    color: white !important;
+    background-color: black;
+}
+.primary-nav{
+    background-color: rgb(70, 69, 69);
+}
+.primary-nav a{
+    color: white !important;
+}
+.primary-nav a:hover{
+    color: orange !important;
+}
+.active a{
+    color: orange !important;
+}
+.search a{
+    text-decoration: none;
+}
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-bottom:10px;
+    width: 50%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 50%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field::placeholder {
+    color: transparent;
+  }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #997511, #efb538);
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: orange;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  .bottom-bor{
+    border-bottom: 3px solid orange;
+    width: 70px;
+
+  }
+
+  /* Top-Sale Template */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #003859;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+.viewall{
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 42%;
+  background-color: orange !important;
+  border: none;
+  color: white !important;
+}
+.viewall:hover{
+  transition: 1s;
+  background-color: black !important;
+}
+.details{
+  
+  background-color: black;
+}
+.sym{
+  font-size: 40px;
+  padding-top: 10px;
+  font-size: 40px;
+  color: orange;
+}
+.details-p{
+  padding-bottom: 10px;
+  color: white;
+}
+.aa{
+  padding:20px;
+  color: white;
+  background-color: black;
+}
+.footer{
+  color: white;
+  background-color: black;
+}
+.sec-footer{
+  color: white;
+  background-color: gray;
+}
+.adminhead{
+  color: orange;
+  background-color: black;
+}
+.hotelinsertion{
+  background-color: gainsboro;
+}
+.touristinsertion{
+  background-color: orange;
+}
+.hotelsub{
+  background-color:gainsboro ;
+}
+.rooms{
+  background-color: orange;
+}
+.all h2{
+  padding-bottom: 10px;
+  text-align: center;
+}
+.all p{
+  padding-top:10px;
+}
+.hr{
+  color: white;
+  background-color: orange;
+}
+.hr2{
+  background-color: black;
+}
